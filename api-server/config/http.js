@@ -21,6 +21,7 @@ module.exports.http = {
 
     customLogger: function (req, res, next) {
         console.log("Requested :: ", req.method, req.url);
+        console.log(`   from: ${req.headers.referer}`)
         return next();
     },
 
