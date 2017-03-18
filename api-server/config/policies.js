@@ -2,7 +2,7 @@
 module.exports.policies = {
   '*': true, // Everything is open unless otherwise assigned a policy
 
-  'UsersController': {
+  'UserController': {
     'create': true, // We dont need authorization here, allowing public access
     '*': ['isAuthenticated', 'isAdmin'],
   },
