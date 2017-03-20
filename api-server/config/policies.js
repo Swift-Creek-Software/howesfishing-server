@@ -20,4 +20,8 @@ module.exports.policies = {
     'find': true, // allow anoyone to search for guides
     '*': ['isAuthenticated', 'isAdmin'],
   },
+
+  'EmailController': {
+    '*': ['isAuthenticated'],
+  },
 }
