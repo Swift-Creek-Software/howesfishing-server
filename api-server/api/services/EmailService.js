@@ -21,7 +21,7 @@ module.exports = {
     return  client.transmissions.send({
         options: {
           sandbox: options.sandbox || false
-        }
+        },
         campaign_id: options.campaignId || 'no-campaign-WTF',
         metadata: options.meta || {},
         content: {

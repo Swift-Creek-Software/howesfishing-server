@@ -1,7 +1,7 @@
 module.exports = {
   send(req, res, next)  {
     EmailService
-      .sendEmail(req.getParams())
+      .sendEmail(req.allParams())
       .then(data => {
         return res.send(data)
       })
