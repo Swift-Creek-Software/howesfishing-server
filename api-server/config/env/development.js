@@ -1,7 +1,9 @@
 module.exports = {
 
   models: {
-    connection: 'mongoApiV1ServerDev'
-  }
+    connection: 'mongoApiV1ServerDev',
+  },
+
+  port: 80,
 
 };
