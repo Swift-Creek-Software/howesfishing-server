@@ -3,17 +3,26 @@ var bcrypt = require('bcrypt')
 
 module.exports = {
 
-  schema: true,
+  schema: false,
 
   attributes: {
     name: 'string',
+
+    access: {
+      // ie: ['admin', 'guide', 'user']
+      required: true,
+      type: 'array',
+    },
 
     isAdmin: {
       type: 'boolean',
       defaultsTo: 'false',
     },
 
-    password: 'string',
+    password: {
+      required: true,
+      type: 'string',
+    },
 
     email: {
       type: 'email',

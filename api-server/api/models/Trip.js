@@ -21,5 +21,5 @@ module.exports = {
 	  	collection: 'user',
       via: 'trips',
 	  },
-  }
+  },
 }
