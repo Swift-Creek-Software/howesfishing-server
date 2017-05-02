@@ -4,13 +4,8 @@ module.exports = {
 
   attributes: {
 	  name: 'string',
-	  email: 'string',
-	  password: 'string',
-	  phoneNumber: 'string',
-	  location: {
-		  type: 'string',
-		  enum: ['BIGFORK', 'LAKESIDE']
-	  }
-  }
-};
-
+	  emails: 'array',
+	  phones: 'array',
+	  color: 'string',
+  },
+}

@@ -3,18 +3,23 @@ module.exports = {
   schema: false,
 
   attributes: {
-	  clientName: 'string',
+	  firstName: 'string',
+	  lastName: 'string',
 	  phone: 'string',
 	  email: 'string',
-	  date: 'date',
-	  guides: {
-	      model: 'guide',
-      },
-	  timeStart: 'date',
-	  timeStop: 'date',
-	  clients: 'array',// sometimes split between guides // are 'clients' users?
-	  cost: 'integer',
-	  waterBody: 'string',
-	  emailFrom: 'string' //used to show who the email is from
+	  startTime: 'date',
+	  endTime: 'date',
+	  guests: 'number',
+	  cost: 'number',
+	  location: {
+	  	model: 'location',
+	  },
+	  guides: 'json',
+	  clientEmailTemplate: 'string',
+	  notes: 'string',
+	  users: {
+	  	collection: 'user',
+      via: 'trips',
+	  },
   }
-};
+}

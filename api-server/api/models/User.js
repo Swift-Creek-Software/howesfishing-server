@@ -25,6 +25,11 @@ module.exports = {
       type: 'string',
     },
 
+    trips: {
+      collection: 'trip',
+      via: 'users',
+    },
+
     // We don't wan't to send back encrypted password either
     toJSON: function () {
       var obj = this.toObject()
