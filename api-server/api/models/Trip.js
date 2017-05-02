@@ -14,7 +14,7 @@ module.exports = {
 	  location: {
 	  	model: 'location',
 	  },
-	  guides: 'json',
+	  guides: 'array',
 	  clientEmailTemplate: 'string',
 	  notes: 'string',
 	  users: {
