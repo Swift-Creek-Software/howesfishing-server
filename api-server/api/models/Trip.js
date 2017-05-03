@@ -11,9 +11,7 @@ module.exports = {
 	  endTime: 'date',
 	  guests: 'integer',
 	  cost: 'integer',
-	  location: {
-	  	model: 'location',
-	  },
+	  location: 'string',
 	  guides: 'array',
 	  clientEmailTemplate: 'string',
 	  notes: 'string',
