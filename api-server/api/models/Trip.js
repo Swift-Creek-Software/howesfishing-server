@@ -9,8 +9,8 @@ module.exports = {
 	  email: 'string',
 	  startTime: 'date',
 	  endTime: 'date',
-	  guests: 'number',
-	  cost: 'number',
+	  guests: 'integer',
+	  cost: 'integer',
 	  location: {
 	  	model: 'location',
 	  },
