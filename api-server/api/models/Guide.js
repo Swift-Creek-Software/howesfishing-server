@@ -7,5 +7,9 @@ module.exports = {
 	  emails: 'array',
 	  phones: 'array',
 	  color: 'string',
+	  deleted: {
+	  	type: 'boolean',
+			defaultsTo: false,
+	  },
   },
 }

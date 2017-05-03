@@ -19,5 +19,9 @@ module.exports = {
 	  	collection: 'user',
       via: 'trips',
 	  },
+    deleted: {
+      type: 'boolean',
+      defaultsTo: false,
+    },
   },
 }

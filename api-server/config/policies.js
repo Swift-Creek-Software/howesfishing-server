@@ -4,6 +4,7 @@ module.exports.policies = {
 
   'UserController': {
     'create': true, // We dont need authorization here, allowing public access
+    'find': ['isAuthenticated', 'isAdmin', 'addDeletedParam'],
     '*': ['isAuthenticated', 'isAdmin'],
   },
 
@@ -12,12 +13,12 @@ module.exports.policies = {
   },
 
   'TripController': {
-    'find': true, // allow anoyone to search for trips
+    'find': 'addDeletedParam', // allow anoyone to search for trips
     '*': ['isAuthenticated', 'isAdmin'],
   },
 
   'GuideController': {
-    'find': true, // allow anoyone to search for guides
+    'find': 'addDeletedParam', // allow anoyone to search for guides
     '*': ['isAuthenticated', 'isAdmin'],
   },
 
