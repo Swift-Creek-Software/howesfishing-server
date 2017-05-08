@@ -27,6 +27,17 @@ module.exports = function (req, res, next) {
   jwToken.verify(token, function (err, token) {
     if (err) return res.json(401, {err: 'Invalid Token!'})
     req.token = token // This is the decrypted token or the payload set when verified
-    next()
+
+    // verify user is active/not-deleted
+    User
+      .findOne(token.id)
+      .then(user => {
+        if (user.deleted) {
+          return res.json(401, {err: 'Inactive user'})
+        }
+
+        return next()
+      })
+      .catch(err => res.json(401, {err: 'Error finding user'}))
   })
 }
