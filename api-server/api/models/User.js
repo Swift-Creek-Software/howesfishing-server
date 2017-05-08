@@ -66,6 +66,23 @@ module.exports = {
     })
   },
 
+  // Here we encrypt password before updating a User
+  beforeUpdate: function (values, next) {
+    if (!values || !values.password) return next()
+
+    bcrypt.genSalt(10, function (err, salt) {
+      if (err) return next(err)
+      bcrypt.hash(values.password, salt, function (err, hash) {
+        if (err) return next(err)
+        values.encryptedPassword = hash
+
+        delete values.password
+
+        next()
+      })
+    })
+  },
+
   comparePassword: function (password, user, cb) {
     bcrypt.compare(password, user.encryptedPassword, function (err, match) {
 
