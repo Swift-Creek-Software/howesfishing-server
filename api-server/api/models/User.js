@@ -60,6 +60,7 @@ module.exports = {
         values.encryptedPassword = hash
 
         delete values.password
+        delete values.confirmPassword
 
         next()
       })

@@ -19,13 +19,14 @@ module.exports = {
   },
 
   update: function (req, res) {
+
     // verify a user isAdmin or only updating their own user model
     if (!req.token.isAdmin && req.param('id') !== req.token.id) {
       return res.json(401, {err: 'Not authorized'})
     }
 
     User
-      .update(req.allParams())
+      .update(req.param('id'), req.allParams())
       .then(user => {
         res.send(user)
       })
