@@ -4,7 +4,11 @@
  * models instead we mark deleted = true|false
  */
 module.exports = function (req, res, next) {
-  req.query.deleted = req.query.hasOwnProperty('deleted') ? req.query.deleted : false
+  if (req.method.toLocaleLowerCase() === 'get') {
+    req.query.deleted = req.query.hasOwnProperty('deleted') ? req.query.deleted : false
+  } else {
+    req.body.deleted = req.query.hasOwnProperty('deleted') ? req.body.deleted : false
+  }
 
   return next()
 }
