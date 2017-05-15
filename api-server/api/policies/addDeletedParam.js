@@ -7,7 +7,7 @@ module.exports = function (req, res, next) {
   if (req.method.toLocaleLowerCase() === 'get') {
     req.query.deleted = req.query.hasOwnProperty('deleted') ? req.query.deleted : false
   } else {
-    req.body.deleted = req.query.hasOwnProperty('deleted') ? req.body.deleted : false
+    req.body.deleted = req.body.hasOwnProperty('deleted') ? req.body.deleted : false
   }
 
   return next()
