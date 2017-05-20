@@ -14,8 +14,6 @@
     "express": "^4.15.2",
     "include-all": "^1.0.0",
     "jsonwebtoken": "^7.3.0",
-    "moment": "^2.18.1",
-    "moment-timezone": "^0.5.13",
     "rc": "1.0.1",
     "sails": "~0.12.13",
     "sails-disk": "~0.10.9",

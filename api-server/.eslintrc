@@ -2,7 +2,7 @@
   "extends": "eslint:recommended",
   "rules": {
     // enable additional rules
-    "indent": "off",
+    "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "never"],
@@ -12,13 +12,6 @@
     "no-cond-assign": ["error", "always"],
 
     // disable rules from base configurations
-    "no-console": "off",
-    "no-mixed-spaces-and-tabs": "off"
-  },
-  "parserOptions": {
-    "ecmaVersion": 6
-  },
-  "env": {
-    "node": true
+    "no-console": "off"
   }
 }
