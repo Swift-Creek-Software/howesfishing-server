@@ -2,8 +2,9 @@
 // https://github.com/ghaiklor/sails-hook-cron
 module.exports.cron = {
   sendReminderEmail: {
+	  // ['seconds', 'minutes', 'hours', 'dayOfMonth', 'month', 'dayOfWeek']
     // run at 9am everyday
-    schedule: '* 9 * * * *',
+    schedule: '* * 9 * * *',
     onTick: function () {
       console.log('++ Cron job running: sendReminderEmail')
 
