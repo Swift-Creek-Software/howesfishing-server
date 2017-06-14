@@ -36,7 +36,7 @@ module.exports.cron = {
 							    confirm: 'remind',
 							    directions: trip.directions,
 							    from: trip.userName,
-							    subject: `Trip fishing reminder ${DateService.formatEmailDate(trip.startTime)}`,
+							    subject: `Fishing Trip Reminder ${DateService.formatEmailDate(trip.startTime)}`,
 							    timeCost: trip.clientEmailTemplate,
 						    },
 						    campaignId: 'Client reminder',
