@@ -1,0 +1,358 @@
+{ 
+    "_id" : ObjectId("59094cb0ba633f2c52e3f6f2"), 
+    "name" : "Mike Howe", 
+    "phones" : [
+        "14062490556", 
+        "14062496345"
+    ], 
+    "color" : "#ef7004", 
+    "emails" : [
+        "Mike@howesfishing.com", 
+        "Cindy@howesfishing.com"
+    ], 
+    "createdAt" : ISODate("2017-05-03T03:21:20.692+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:00:00.180+0000"), 
+    "deleted" : true
+}
+{ 
+    "_id" : ObjectId("59094e87ba633f2c52e3f6f5"), 
+    "name" : "Jr. Garrison", 
+    "phones" : [
+        "14062121462", 
+        "14064717272"
+    ], 
+    "emails" : [
+        "wjrgarrison@gmail.com", 
+        "tammy_heftved2010@yahoo"
+    ], 
+    "color" : "#627f1e", 
+    "createdAt" : ISODate("2017-05-03T03:29:11.915+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:01:29.955+0000"), 
+    "deleted" : true
+}
+{ 
+    "_id" : ObjectId("59094eadba633f2c52e3f6f6"), 
+    "name" : "Matt McComb", 
+    "phones" : [
+        "14062616980", 
+        "14062129784"
+    ], 
+    "emails" : [
+        "jourdansean@gmail.com"
+    ], 
+    "color" : "#ff0055", 
+    "createdAt" : ISODate("2017-05-03T03:29:49.353+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:04:27.769+0000"), 
+    "deleted" : true
+}
+{ 
+    "_id" : ObjectId("59094ed2ba633f2c52e3f6f7"), 
+    "name" : "Tom Cobianco", 
+    "phones" : [
+        "14062530547"
+    ], 
+    "emails" : [
+        "tomsueco14@gmail.com"
+    ], 
+    "color" : "#5b7298", 
+    "createdAt" : ISODate("2017-05-03T03:30:26.349+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:05:24.976+0000"), 
+    "deleted" : true
+}
+{ 
+    "_id" : ObjectId("59094f2bba633f2c52e3f6f9"), 
+    "name" : "Jason Mundel", 
+    "emails" : [
+        "rippnlippsguideservice@gmail.com"
+    ], 
+    "phones" : [
+        "14062127153", 
+        "14062533028"
+    ], 
+    "color" : "#aa55ff", 
+    "createdAt" : ISODate("2017-05-03T03:31:55.614+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:06:09.775+0000"), 
+    "deleted" : true
+}
+{ 
+    "_id" : ObjectId("59094ce2ba633f2c52e3f6f3"), 
+    "name" : "Clay Anderson", 
+    "phones" : [
+        "14063145529", 
+        "14063143535"
+    ], 
+    "emails" : [
+        "anderson.clayw@gmail.com", 
+        "anderson.kaylajo@gmail.com"
+    ], 
+    "color" : "#0c6d34", 
+    "createdAt" : ISODate("2017-05-03T03:22:10.363+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:07:24.855+0000"), 
+    "deleted" : true
+}
+{ 
+    "_id" : ObjectId("59094d12ba633f2c52e3f6f4"), 
+    "name" : "Pat Campanella", 
+    "phones" : [
+        "14068718244", 
+        "14068719834"
+    ], 
+    "emails" : [
+        "patcampanella@gmail.com", 
+        "tobicampanella@gmail.com"
+    ], 
+    "color" : "#280d6d", 
+    "createdAt" : ISODate("2017-05-03T03:22:58.454+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:08:37.677+0000"), 
+    "deleted" : true
+}
+{ 
+    "_id" : ObjectId("59094f01ba633f2c52e3f6f8"), 
+    "name" : "Chris Mischke", 
+    "emails" : [
+        "bigskyfishingcharters@gmail.com", 
+        "bonnieblue@centurytel.net"
+    ], 
+    "phones" : [
+        "14062701649", 
+        "14062492494"
+    ], 
+    "color" : "#34c59a", 
+    "createdAt" : ISODate("2017-05-03T03:31:13.820+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:09:46.577+0000"), 
+    "deleted" : true
+}
+{ 
+    "_id" : ObjectId("590f597d826bfdcf63254e1a"), 
+    "name" : "Andrew Gross", 
+    "phones" : [
+        "asdf"
+    ], 
+    "emails" : [
+        "grossmail1@gmail.com"
+    ], 
+    "color" : "#670707", 
+    "userId" : "590f597c826bfdcf63254e19", 
+    "deleted" : true, 
+    "createdAt" : ISODate("2017-05-07T17:29:33.203+0000"), 
+    "updatedAt" : ISODate("2017-05-07T17:33:05.671+0000")
+}
+{ 
+    "_id" : ObjectId("590f7d13826bfdcf63254e1d"), 
+    "name" : "Mike Howe", 
+    "phones" : [
+        "14062490556", 
+        "14062496345"
+    ], 
+    "emails" : [
+        "Mike@howesfishing.com"
+    ], 
+    "color" : "#25c313", 
+    "userId" : "590f7d13826bfdcf63254e1c", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-07T20:01:23.451+0000"), 
+    "updatedAt" : ISODate("2017-05-08T17:18:00.028+0000")
+}
+{ 
+    "_id" : ObjectId("590f7dc6826bfdcf63254e20"), 
+    "name" : "Jr. Garrison", 
+    "phones" : [
+        "14062121462"
+    ], 
+    "emails" : [
+        "wjrgarrison@gmail.com"
+    ], 
+    "color" : "#2445ca", 
+    "userId" : "590f7dc6826bfdcf63254e1f", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-07T20:04:22.825+0000"), 
+    "updatedAt" : ISODate("2017-05-18T17:17:34.924+0000")
+}
+{ 
+    "_id" : ObjectId("590f7dff826bfdcf63254e23"), 
+    "name" : "Matt McComb", 
+    "phones" : [
+        "14062616980", 
+        "14062129784"
+    ], 
+    "emails" : [
+        "mattmofisch@gmail.com"
+    ], 
+    "color" : "#7d142a", 
+    "userId" : "590f7dff826bfdcf63254e22", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-07T20:05:19.435+0000"), 
+    "updatedAt" : ISODate("2017-05-08T20:06:24.942+0000")
+}
+{ 
+    "_id" : ObjectId("590f7e2c826bfdcf63254e26"), 
+    "name" : "Tom Cobianco", 
+    "phones" : [
+        "14062530547"
+    ], 
+    "emails" : [
+        "tomsueco14@gmail.com"
+    ], 
+    "color" : "#15afbf", 
+    "userId" : "590f7e2b826bfdcf63254e25", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-07T20:06:04.685+0000"), 
+    "updatedAt" : ISODate("2017-05-17T19:37:38.273+0000")
+}
+{ 
+    "_id" : ObjectId("590f7e76826bfdcf63254e29"), 
+    "name" : "Jason Mundel", 
+    "phones" : [
+        "14062127153", 
+        "14062533028"
+    ], 
+    "emails" : [
+        "rippnlippsguideservice@gmail.com"
+    ], 
+    "color" : "#2618ca", 
+    "userId" : "590f7e76826bfdcf63254e28", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-07T20:07:18.965+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:07:18.965+0000")
+}
+{ 
+    "_id" : ObjectId("590f7ebd826bfdcf63254e2c"), 
+    "name" : "Clay Anderson", 
+    "phones" : [
+        "14063145529", 
+        "14063143535"
+    ], 
+    "emails" : [
+        "anderson.clayw@gmail.com", 
+        "anderson.kaylaho@gmail.com"
+    ], 
+    "color" : "#a8b116", 
+    "userId" : "590f7ebd826bfdcf63254e2b", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-07T20:08:29.521+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:08:29.521+0000")
+}
+{ 
+    "_id" : ObjectId("590f7f02826bfdcf63254e2f"), 
+    "name" : "Pat Campanella", 
+    "phones" : [
+        "14068718244", 
+        "14068719834"
+    ], 
+    "emails" : [
+        "patcampanella@gmail.com", 
+        "tobicampanella@gmail.com"
+    ], 
+    "color" : "#d64e18", 
+    "userId" : "590f7f01826bfdcf63254e2e", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-07T20:09:38.129+0000"), 
+    "updatedAt" : ISODate("2017-05-08T20:28:34.110+0000")
+}
+{ 
+    "_id" : ObjectId("5910d4f375a335f06c7bd0a4"), 
+    "name" : "Andrew Gross", 
+    "phones" : [
+        "14062708435"
+    ], 
+    "emails" : [
+
+    ], 
+    "color" : "#c11313", 
+    "userId" : "5910d4f275a335f06c7bd0a3", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-08T20:28:35.162+0000"), 
+    "updatedAt" : ISODate("2017-05-31T15:25:08.901+0000")
+}
+{ 
+    "_id" : ObjectId("592335175de67f1b5c653947"), 
+    "name" : "Cameron Hockett", 
+    "phones" : [
+        "14062538526"
+    ], 
+    "emails" : [
+        "cameronhockett@gmail.com"
+    ], 
+    "color" : "#55c5da", 
+    "userId" : "592335175de67f1b5c653945", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-22T18:59:35.767+0000"), 
+    "updatedAt" : ISODate("2017-05-22T18:59:35.767+0000")
+}
+{ 
+    "_id" : ObjectId("592335805de67f1b5c65394a"), 
+    "name" : "Bryan Sutch", 
+    "phones" : [
+        "14062508616"
+    ], 
+    "emails" : [
+        "bryansutch@gmail.com"
+    ], 
+    "color" : "#3b802a", 
+    "userId" : "5923357f5de67f1b5c653948", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-22T19:01:20.073+0000"), 
+    "updatedAt" : ISODate("2017-05-22T19:01:20.073+0000")
+}
+{ 
+    "_id" : ObjectId("592db4ca4392cc8a7760ca24"), 
+    "name" : "Fake Guide", 
+    "color" : "#ff650e", 
+    "phones" : [
+        "14065555555"
+    ], 
+    "emails" : [
+        "info@aablefishing.com"
+    ], 
+    "userId" : "592db4c94392cc8a7760ca22", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-30T18:07:06.104+0000"), 
+    "updatedAt" : ISODate("2017-05-30T18:07:06.104+0000")
+}
+{ 
+    "_id" : ObjectId("5941834ea3a57d440c2a9477"), 
+    "name" : "Cancelled", 
+    "phones" : [
+        "14062496345"
+    ], 
+    "emails" : [
+        "cindy@howesfishing.com"
+    ], 
+    "color" : "#ab9292", 
+    "userId" : "5941834ea3a57d440c2a9475", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-06-14T18:41:18.571+0000"), 
+    "updatedAt" : ISODate("2017-06-14T18:41:18.571+0000")
+}
+{ 
+    "_id" : ObjectId("59418384a3a57d440c2a947a"), 
+    "name" : "Cancelled 2", 
+    "phones" : [
+        "14062496345"
+    ], 
+    "emails" : [
+        "cindy@aablefishing.com"
+    ], 
+    "color" : "#bb9a9a", 
+    "userId" : "59418383a3a57d440c2a9478", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-06-14T18:42:12.003+0000"), 
+    "updatedAt" : ISODate("2017-06-14T18:42:12.003+0000")
+}
+{ 
+    "_id" : ObjectId("590f7f41826bfdcf63254e32"), 
+    "name" : "Chris Mischke", 
+    "phones" : [
+        "14062701649", 
+        "14062492494"
+    ], 
+    "emails" : [
+        "bigskyfishingcharters@gmail.com", 
+        "bonnieblue@centurytel.net"
+    ], 
+    "color" : "#417d42", 
+    "userId" : "590f7f40826bfdcf63254e30", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-07T20:10:41.058+0000"), 
+    "updatedAt" : ISODate("2017-06-16T23:09:51.136+0000")
+}

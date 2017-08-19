@@ -1,0 +1,36 @@
+{ 
+    "_id" : ObjectId("5909d18bba633f2c52e3f6fc"), 
+    "name" : "Bigfork", 
+    "directions" : "We are located in Bigfork at the Marina Cay Resort, 180 Vista Lane. Off of Hwy. 35 turn East on Grand Ave/Holt Dr. Continue on to the school and Grand will curve right, you will see a marked cross walk and the entrance to Marina Cay Resort on your right. Drive all the way down till you see the boats and park anywhere available. Enter the docks by the shack just past the office and at the end of the second dock you will find your boat. There is a map on our home page where you can zoom in for a more clear direction. ", 
+    "createdAt" : ISODate("2017-05-03T12:48:11.849+0000"), 
+    "updatedAt" : ISODate("2017-05-03T12:48:11.849+0000")
+}
+{ 
+    "_id" : ObjectId("5909d1c6ba633f2c52e3f6fd"), 
+    "name" : "West Shore", 
+    "directions" : "This time of year due to lake water levels, we will depart from West Shore State Park, 17768 US Hwy. 93, Lakeside.  West Shore is located on Hwy. 93, mile marker 93, about 30 miles North of Polson and 20 miles South of Kalispell.  Once in the park, drive all the way to the water and to your right is parking. There is a map on our home page where you can zoom in for a more clear direction.  Just click on the red marker South of lakeside.", 
+    "createdAt" : ISODate("2017-05-03T12:49:10.482+0000"), 
+    "updatedAt" : ISODate("2017-05-03T12:49:10.482+0000")
+}
+{ 
+    "_id" : ObjectId("5909d1d8ba633f2c52e3f6fe"), 
+    "name" : "Lakeside - Marina", 
+    "directions" : "We are located at the Lakeside Marina, 7135 Hwy 93 S, in Lakeside", 
+    "createdAt" : ISODate("2017-05-03T12:49:28.985+0000"), 
+    "updatedAt" : ISODate("2017-05-03T12:49:28.985+0000")
+}
+{ 
+    "_id" : ObjectId("5909d2c2ba633f2c52e3f6ff"), 
+    "name" : "Lakeside - Pat", 
+    "directions" : "Hwy. 93 will bring you to our boat in Lakeside.  In Lakeside we are at 688 Lakeside Blvd, not at the Marina.  South of the Marina turn East on Adams Street at the marked cross walk (you will see “By the Lake Realty” and \"Volunteer Park\").  The road turns right onto Lakeside Blvd.  Six houses on the right you will see an A Frame house (Park there).  The boat is across from the A Frame house and your Captain will be Pat. There is a map on our home page where you can zoom in on Lakeside for a more clear direction.", 
+    "createdAt" : ISODate("2017-05-03T12:53:22.133+0000"), 
+    "updatedAt" : ISODate("2017-05-03T12:53:22.133+0000")
+}
+{ 
+    "_id" : ObjectId("5917588a334fd49d4a257f6a"), 
+    "name" : "Bigfork - Chris", 
+    "directions" : "We are located in Bigfork at the Marina Cay Resort, 180 Vista Lane.  Off of Hwy. 35 turn East on Grand Ave/Holt Dr.   Continue on to the school and Grand will curve right, you will see a marked cross walk and the entrance to Marina Cay Resort.  Drive all the way down till you see the boats and park anywhere available.  Enter the docks by the shack just past the office and straight ahead, beginning of the second dock you will find your boat and captain.", 
+    "deleted" : false, 
+    "createdAt" : ISODate("2017-05-13T19:03:38.775+0000"), 
+    "updatedAt" : ISODate("2017-05-13T19:03:38.775+0000")
+}

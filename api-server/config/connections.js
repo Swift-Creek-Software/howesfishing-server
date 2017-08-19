@@ -7,21 +7,21 @@ module.exports.connections = {
 	// prod DB
 	mongoApiV1ServerProd: {
 		adapter: 'sails-mongo',
-		host: 'cluster0-shard-00-00-nsd2f.mongodb.net',
-		port: 27017,
+		host: 'ds149743.mlab.com',
+		port: 49743,
 		user: 'db_user',
-		password: '9etTRUP3ifFCO2Jc',
-		database: 'aablefishing-api-v1-dev'
+		password: 'Overlord1',
+		database: 'aablefishing-db'
 	},
 
 	// dev DB
 	mongoApiV1ServerDev: {
 		adapter: 'sails-mongo',
-		host: 'cluster0-shard-00-00-nsd2f.mongodb.net',
-		port: 27017,
+		host: 'ds149743.mlab.com',
+		port: 49743,
 		user: 'db_user',
-		password: '9etTRUP3ifFCO2Jc',
-		database: 'aablefishing-api-v1-dev'
+		password: 'Overlord1',
+		database: 'aablefishing-db'
 	},
 
 };

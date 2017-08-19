@@ -1,0 +1,254 @@
+{ 
+    "_id" : ObjectId("59191dc9612fa4e2731b357f"), 
+    "name" : "cory", 
+    "email" : "this1@gmail.com", 
+    "access" : [
+        "['guide']"
+    ], 
+    "isAdmin" : false, 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$KTJag2343lXJNC8s2xSBrOE03JRMbbUHie7OG/uqK8zU54JoxTZBa", 
+    "createdAt" : ISODate("2017-05-15T03:17:29.452+0000"), 
+    "updatedAt" : ISODate("2017-05-15T03:17:29.452+0000")
+}
+{ 
+    "_id" : ObjectId("590a46ca826bfdcf63254dfa"), 
+    "name" : "Cindy Howe", 
+    "email" : "admin@aablefishing.com", 
+    "confirmPassword" : "99/Fish99", 
+    "isAdmin" : true, 
+    "access" : [
+        "['admin']"
+    ], 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$fWUZldcIjH6Pl8CuUErGpOJjeRcXpQ93FxT9NnisZ/k9uGL2T4.ue", 
+    "createdAt" : ISODate("2017-05-03T21:08:26.786+0000"), 
+    "updatedAt" : ISODate("2017-05-03T21:08:26.786+0000")
+}
+{ 
+    "_id" : ObjectId("590f7d13826bfdcf63254e1c"), 
+    "confirmPassword" : "99/Fish99", 
+    "email" : "Mike@howesfishing.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : true, 
+    "name" : "Mike Howe", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$r4KUn8ext9nKWqt1QtYyCeXR1KVZsFR6RZl9sSzK0rQ7t8S7ijIMO", 
+    "createdAt" : ISODate("2017-05-07T20:01:23.165+0000"), 
+    "updatedAt" : ISODate("2017-05-17T18:01:30.806+0000"), 
+    "guideId" : "590f7d13826bfdcf63254e1d"
+}
+{ 
+    "_id" : ObjectId("590f7dc6826bfdcf63254e1f"), 
+    "confirmPassword" : "i60p78io1i", 
+    "email" : "wjrgarrison@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Jr. Garrison", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$C08nDaY4yLnWpwNN5/ak7ehjbmTB5OHj4wexDd/MbXl5FNiVcZCIO", 
+    "createdAt" : ISODate("2017-05-07T20:04:22.538+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:04:22.538+0000"), 
+    "guideId" : "590f7dc6826bfdcf63254e20"
+}
+{ 
+    "_id" : ObjectId("590f7dff826bfdcf63254e22"), 
+    "confirmPassword" : "sean1196", 
+    "email" : "mattmofisch@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Matt McComb", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$maDTME2jmC0dIFJl9WG65u1L.2McN2kgGwUGBJOl2/PKf/EEjv.kS", 
+    "createdAt" : ISODate("2017-05-07T20:05:19.146+0000"), 
+    "updatedAt" : ISODate("2017-06-01T02:43:23.671+0000"), 
+    "guideId" : "590f7dff826bfdcf63254e23"
+}
+{ 
+    "_id" : ObjectId("590f7e2b826bfdcf63254e25"), 
+    "confirmPassword" : "y5elt0469c", 
+    "email" : "tomsueco14@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Tom Cobianco", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$x7S6ua51rvsjgBcTd1rCweXsKlXhk19AfFL0sOvvI1HtXlK9vsoMm", 
+    "createdAt" : ISODate("2017-05-07T20:06:03.887+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:06:03.887+0000"), 
+    "guideId" : "590f7e2c826bfdcf63254e26"
+}
+{ 
+    "_id" : ObjectId("590f7e76826bfdcf63254e28"), 
+    "confirmPassword" : "frbrylux5i", 
+    "email" : "rippnlippsguideservice@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Jason Mundel", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$WoylDIpHfDdXFZ3p0IjI.Oawe4Skb72wrTn0orLDR/hH.gV/AIRym", 
+    "createdAt" : ISODate("2017-05-07T20:07:18.516+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:07:18.516+0000"), 
+    "guideId" : "590f7e76826bfdcf63254e29"
+}
+{ 
+    "_id" : ObjectId("590f7ebd826bfdcf63254e2b"), 
+    "confirmPassword" : "341koxz01l", 
+    "email" : "anderson.clayw@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Clay Anderson", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$4btr72ZY7.wyykp3TDtlMuYwAyb1zsOnREhfcJr0tbXkUWhrQVekG", 
+    "createdAt" : ISODate("2017-05-07T20:08:29.239+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:08:29.239+0000"), 
+    "guideId" : "590f7ebd826bfdcf63254e2c"
+}
+{ 
+    "_id" : ObjectId("590f7f01826bfdcf63254e2e"), 
+    "confirmPassword" : "i463nibgpy", 
+    "email" : "patcampanella@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Pat Campanella", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$Cv5wIRuF8e/GKGZ7nzVKv.x9Bndd9J1reWNda0sYT35sTN2Rs3AT.", 
+    "createdAt" : ISODate("2017-05-07T20:09:37.718+0000"), 
+    "updatedAt" : ISODate("2017-05-07T20:09:37.718+0000"), 
+    "guideId" : "590f7f02826bfdcf63254e2f"
+}
+{ 
+    "_id" : ObjectId("590f7f40826bfdcf63254e30"), 
+    "confirmPassword" : "Yamaha250", 
+    "email" : "bigskyfishingchartes@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Chris Mischke", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$Dn9dz.9QK7UFL8n1IXjyheSAENpVInlWa7iFLLMAFkAgYQx2/ERuO", 
+    "createdAt" : ISODate("2017-05-07T20:10:40.583+0000"), 
+    "updatedAt" : ISODate("2017-06-02T14:53:39.073+0000"), 
+    "guideId" : "590f7f41826bfdcf63254e32"
+}
+{ 
+    "_id" : ObjectId("5910bd2bfeac633b066e4bc4"), 
+    "email" : "jourdansean@gmail.com", 
+    "confirmPassword" : "annaPa$$", 
+    "isAdmin" : true, 
+    "access" : [
+        "user"
+    ], 
+    "name" : "Anna Mccomb", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$XKizeHZvdUqU0XZYdKRe5uy48sxjfI.kfJQH4zJT3iemUANb8By1.", 
+    "createdAt" : ISODate("2017-05-08T18:47:07.342+0000"), 
+    "updatedAt" : ISODate("2017-05-08T18:47:07.342+0000")
+}
+{ 
+    "_id" : ObjectId("5910d4f275a335f06c7bd0a3"), 
+    "confirmPassword" : "foo", 
+    "email" : "grossmail1@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : true, 
+    "name" : "Andrew Gross", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$HCSyLLGmdkn1dQ9owEK.yu2qbaBStGCQlK7R/LfTyGz19cwLX3HCG", 
+    "createdAt" : ISODate("2017-05-08T20:28:34.841+0000"), 
+    "updatedAt" : ISODate("2017-05-11T13:46:06.595+0000")
+}
+{ 
+    "_id" : ObjectId("59191e0e612fa4e2731b3581"), 
+    "name" : "cory", 
+    "email" : "this12@gmail.com", 
+    "access" : [
+        "['guide', 'admin']"
+    ], 
+    "isAdmin" : true, 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$mNN0NqDA4fRrT22.QYnpweZvavyEDY49zzIYTVKKW0PVm.kQED84K", 
+    "createdAt" : ISODate("2017-05-15T03:18:38.056+0000"), 
+    "updatedAt" : ISODate("2017-05-15T03:18:38.056+0000")
+}
+{ 
+    "_id" : ObjectId("592335175de67f1b5c653945"), 
+    "email" : "cameronhockett@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Cameron Hockett", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$xXtCLJjF5WHCCrqDMmncje4ktuonJqC82ILGocFqp5mNIzgkxwgpO", 
+    "createdAt" : ISODate("2017-05-22T18:59:35.317+0000"), 
+    "updatedAt" : ISODate("2017-05-22T18:59:35.317+0000")
+}
+{ 
+    "_id" : ObjectId("5923357f5de67f1b5c653948"), 
+    "email" : "bryansutch@gmail.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Bryan Sutch", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$gjXHQKaH8wgN8Znb5GM5SOfk.uIV0ck767WLMoJq7yhMi9msgtLoi", 
+    "createdAt" : ISODate("2017-05-22T19:01:19.558+0000"), 
+    "updatedAt" : ISODate("2017-06-22T20:57:18.950+0000"), 
+    "confirmPassword" : "password"
+}
+{ 
+    "_id" : ObjectId("592db4c94392cc8a7760ca22"), 
+    "email" : "info@aablefishing.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Fake Guide", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$i0Hm6h0wL2ukYyMIZR7y/uQpK1iqIYsVpZfU2p4ITMyZc1fvXnWTG", 
+    "createdAt" : ISODate("2017-05-30T18:07:05.751+0000"), 
+    "updatedAt" : ISODate("2017-05-30T18:07:05.751+0000")
+}
+{ 
+    "_id" : ObjectId("5941834ea3a57d440c2a9475"), 
+    "email" : "cindy@howesfishing.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Cancelled", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$hSpPFD6D1IbI07LV5ZyCqur9JKf.GNzGToCtVwdYa820p5ye06FYO", 
+    "createdAt" : ISODate("2017-06-14T18:41:18.133+0000"), 
+    "updatedAt" : ISODate("2017-06-14T18:41:18.133+0000")
+}
+{ 
+    "_id" : ObjectId("59418383a3a57d440c2a9478"), 
+    "email" : "cindy@aablefishing.com", 
+    "access" : [
+        "guide"
+    ], 
+    "isAdmin" : false, 
+    "name" : "Cancelled 2", 
+    "deleted" : false, 
+    "encryptedPassword" : "$2a$10$NJjGImJCtxsVqjxju87QOOilWjmSod1Mk0B9KXvz5dkx.BnlrVoCG", 
+    "createdAt" : ISODate("2017-06-14T18:42:11.470+0000"), 
+    "updatedAt" : ISODate("2017-06-14T18:42:11.470+0000")
+}
